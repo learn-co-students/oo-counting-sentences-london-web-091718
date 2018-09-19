@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     # sentences = self.split(/[.?!]/).reject { |s| s.empty? }
-    sentences = self.split(".").join("!").split("!").join("?").split("?").reject { |s| s.empty? }
-    sentences.count
+    # sentences.count
+    self.split(".").join("!").split("!").join("?").split("?").reject { |s| s.empty? }.count
     # binding.pry
   end
 end
