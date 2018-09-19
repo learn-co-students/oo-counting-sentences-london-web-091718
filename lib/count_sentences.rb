@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    
+
   end
 
   def question?
@@ -18,3 +18,5 @@ class String
 
   end
 end
+
+#binding.pry
